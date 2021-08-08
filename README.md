@@ -1,1 +1,1 @@
-Requires qiskit, qiskit-machine-learning, and cvxpy libraries to be installed.
+Requires qiskit, qiskit-machine-learning, cvxpy, and joblib libraries to be installed.
