@@ -1,0 +1,10 @@
+cff-version: 1.0.0
+message: "The software can be cited as below"
+authors:
+- family-names: "Pellow-Jarman"
+  given-names: "Rowan"
+  orcid: "https://orcid.org/0000-0001-5421-0036"
+title: "qsvm-feature-map-investigation"
+version: 1.0.0
+date-released: 2021-11-10
+url: "https://github.com/RowPJ/qsvm-feature-map-investigation"
