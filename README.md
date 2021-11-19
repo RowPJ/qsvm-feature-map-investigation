@@ -1,3 +1,5 @@
+These instructions are for Windows computers.
+
 Software requirements:
 1. Python 3 is required and the code was tested using python version 3.8.3.
 2. Jupyter Notebook
