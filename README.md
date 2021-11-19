@@ -28,5 +28,5 @@ This can be done with the command
 ```jupyter notebook```
 which will open the browser interface and allow opening and interacting with the notebook.
 
-The notebook contains explanation cells above code cells explaining their function. There is the ability to load precomputed results as well as compute them again, although computing the results took 30 hours for the final seed verification which ran everything 10 times. Precomputed results are not available for the seed verification since the files are large enough to be difficult to upload.
+The notebook contains explanation cells above code cells explaining their function. There is the ability to load precomputed results as well as compute them again, although computing the results took 30 hours for the final seed verification which ran everything 10 times. Precomputed results are not supplied since loading them can only be done reliably with the python version that created them.
 By default the cells that start the experiment and that save results are commented out to prevent accidentally running them.
