@@ -18,7 +18,7 @@ The simplest way to install all dependencies is to follow these steps:
 
 Alternative installations:
 Jupyter notebook can alternatively be installed using pip with the following command, assuming pip is installed: ```pip install notebook```
-The `conda` libraries can also be installed through pip but require a full Microsoft Visual Studio installation.
+The `conda` libraries can also be installed through pip but some require a full Microsoft Visual Studio installation to do so.
 
 Instructions to run:
 The notebook can be started from a terminal in the folder containing `project.ipynb`.
