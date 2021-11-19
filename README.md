@@ -11,6 +11,8 @@ Library requirements:
 4. joblib
 5. matplotlib>=3.4 (minimum version required for drawing normalized bar graphs)
 6. symengine
+7. numpy (should be automatically installed as a dependency of qiskit)
+8. sklearn (should be automatically installed as a dependency of qiskit-machine-learning)
 
 The simplest way to install all dependencies is to follow these steps:
 1. Download Anaconda individual edition https://www.anaconda.com/products/individual. Make sure to tick the box during install to add it to the PATH environment variable. This installation includes the Jupyter Notebook requirement and python 3 requirement.
