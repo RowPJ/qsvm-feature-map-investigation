@@ -18,6 +18,9 @@ joblib
 matplotlib>=3.4
 symengine
 
+Visual Studio build tools must be installed to successfully install the libraries.
+
+
 These can be installed with the following command:
 
 ```pip install qiskit qiskit-machine-learning cvxpy joblib matplotlib>=3.4 symengine```
