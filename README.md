@@ -18,8 +18,13 @@ joblib
 matplotlib>=3.4
 symengine
 
-Visual Studio build tools must be installed to successfully install the libraries.
+Visual Studio build tools must be installed to successfully install the libraries. They are around 100MB
+and can be installed without installing the Visual Studio IDE by running the installer from the below link and
+not selecting any extra components when allowed.
 
+https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+Note that open terminals must be restarted after install to be able use the build tools.
 
 These can be installed with the following command:
 
