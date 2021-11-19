@@ -28,5 +28,5 @@ This can be done with the command
 ```jupyter notebook```
 which will open the browser interface and allow opening and interacting with the notebook.
 
-The notebook contains explanation cells above code cells explaining their function. There is the ability to load precomputed results as well as compute them again, although computing the results took 30 hours for the final seed verification which ran everything 10 times. Precomputed results are not supplied since loading them can only be done reliably with the python version that created them.
+The notebook contains explanation cells above code cells explaining their function. An important value to set is the number of workers processes to train classifiers on, since this can greatly affect the running time. It should ideally be at or near the number of threads on the system's processor. There is the ability to load precomputed results as well as compute them again, although computing the results took 30 hours for the final seed verification which ran everything 10 times using 12 workers. Precomputed results are not supplied since loading them can only be done reliably with the python version that created them.
 By default the cells that start the experiment and that save results are commented out to prevent accidentally running them.
