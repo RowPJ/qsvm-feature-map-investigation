@@ -17,8 +17,8 @@ Library requirements:
 The simplest way to install all dependencies is to follow these steps:
 1. Download Anaconda individual edition https://www.anaconda.com/products/individual. Make sure to tick the box during install to add it to the PATH environment variable. This installation includes the Jupyter Notebook requirement and python 3 requirement.
 2. Add the `conda-forge` channel to conda sources with ```conda config --add channels conda-forge```, which allows installing libraries without visual studio.
-3. Run the command ```conda install cvxpy joblib matplotlib>=3.4 symengine```
-4. Run the command  ```pip install qiskit qiskit-machine-learning```
+3. Run the command ```conda install cvxpy joblib matplotlib>=3.4 symengine``` in a terminal
+4. Run the command  ```pip install qiskit qiskit-machine-learning``` in a terminal
 
 Alternative installations:
 Jupyter notebook can alternatively be installed using pip with the following command, assuming pip is installed: ```pip install notebook```
